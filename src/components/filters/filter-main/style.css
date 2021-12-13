@@ -1,0 +1,13 @@
+.main-container-filters {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 45%;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}

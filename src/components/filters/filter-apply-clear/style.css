@@ -1,0 +1,45 @@
+.filters-buttons-clear-apply {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.white_button_class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAFAFA;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    width: 98px;
+    height: 30px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.blue_button_class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(264.83deg, #3A9FF1 -3.28%, #05EDE3 100%);
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    width: 98px;
+    height: 30px;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.white_button_class:active,
+.blue_button_class:active {
+    transform: translateY(2px);
+}

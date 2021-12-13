@@ -1,0 +1,113 @@
+.resume-add-register-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 20%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    background: #FAFAFA;
+    box-shadow: 0px 5px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 200px;
+}
+
+.resume-container-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2F2F2F;
+    padding-bottom: 20px;
+}
+
+.resume-in {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.resume-in h4,
+.resume-out h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #2F2F2F;
+}
+
+.resume-in span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #645FFB;
+}
+
+.resume-out {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.resume-out span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FA8C10;
+}
+
+.resume-balance {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #EAEAEA;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.resume-balance h4 {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2F2F2F;
+}
+
+.resume-balance span {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3A9FF1;
+}
+
+.resume-add-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(91.26deg, #FA8C10 0%, #FF57D3 97.77%);
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.resume-add-register:active {
+    transform: translateY(2px);
+}
+
+.rubik-button {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+}

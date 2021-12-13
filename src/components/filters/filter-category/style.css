@@ -1,0 +1,57 @@
+.filters-category {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    padding-left: 30px;
+    border-right: 1px solid gray;
+}
+
+.filter-category-title {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 10px 0 10px 0;
+    color: rgba(185, 185, 185, 1);
+}
+
+.categories {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.Filter-Select-Class {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    margin: 5px 20px 5px 0;
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Filter-Select-Class:active {
+    transform: translateY(2px);
+}
+
+.Filter-Select-Class img {
+    width: 10.38px;
+    height: 10.34px;
+}
+
+.selected {
+    color: white;
+    background-color: blueviolet;
+}

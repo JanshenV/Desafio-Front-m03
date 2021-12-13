@@ -1,0 +1,64 @@
+.modal-delete-container {
+    position: absolute;
+    bottom: 40px;
+    left: 91%;
+    width: 111px;
+    height: 46px;
+    background: #E4F2FD;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-delete-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    color: #000000;
+}
+
+.modal-delete-confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.confirm-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #3A9FF1;
+    border-radius: 4px;
+    width: 37px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.deny-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #FF576B;
+    border-radius: 4px;
+    width: 37px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
